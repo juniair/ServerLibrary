@@ -149,10 +149,4 @@ namespace System
 
 	};
 } // namespce System
-
-#include "SocketException.cpp"
-#include "Address.cpp"
-#include "Socket.cpp"
-#include "TCP.cpp"
-#include "Log.cpp"
 #endif

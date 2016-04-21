@@ -66,6 +66,7 @@ namespace System
 			throw SocketException(tag.c_str());
 		}
 #endif
+		return this->ip();
 	}
 
 	PORT Address::port(void)
